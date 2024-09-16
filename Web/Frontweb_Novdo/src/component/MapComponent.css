@@ -1,0 +1,9 @@
+.map-card {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    width: 300px; /* Adjust width as needed */
+    height: 200px; /* Adjust height as needed */
+    z-index: 4;
+  }
+  

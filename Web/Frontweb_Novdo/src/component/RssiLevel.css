@@ -1,0 +1,45 @@
+/* RssiLevel.css */
+
+.rssi-bars {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  gap: 2px;
+  align-items: flex-end;
+  z-index: 3;
+  margin-right: 30px;
+}
+
+.bar {
+  width: 5px;
+  background-color: #ccc;
+  border-radius: 2px;
+  transition: background-color 0.3s;
+}
+
+.bar.filled {
+  background-color: #4CAF50; /* Green when signal is present */
+}
+
+.bar:nth-child(1) {
+  height: 5px;
+}
+
+.bar:nth-child(2) {
+  height: 10px;
+}
+
+.bar:nth-child(3) {
+  height: 15px;
+}
+
+.bar:nth-child(4) {
+  height: 20px;
+}
+
+.bar:nth-child(5) {
+  height: 25px;
+}
+
+

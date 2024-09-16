@@ -1,0 +1,105 @@
+/* Battery.css */
+
+.battery-container {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    top: 27px;
+    right: 90px;
+    z-index: 4;
+    /* background-color: #fff; */
+  }
+  
+  .total-voltage {
+    font-size: 1rem;
+    color: #000000;
+ 
+  }
+  
+  .battery-icon {
+    position: relative;
+    width: 30px;
+    height: 15px;
+    border: 2px solid #000; /* Black border for the battery icon */
+    border-radius: 3px;
+    background-color: #ffffff; /* White background inside the battery */
+  }
+  
+  .battery-icon::after {
+    content: '';
+    position: absolute;
+    top: 1px;
+    right: -5px;
+    width: 3px;
+    height: 9px;
+    background-color: #000; /* Black color for the battery tip */
+    border-radius: 1px;
+  }
+
+  .battery-icon-warning {
+    background-color: red;
+    border-color: rgb(0, 0, 0);
+  }
+  
+  .battery-level {
+    height: 100%;
+    background-color: #4CAF50; /* Green color indicating battery level */
+    border-radius: 2px 0 0 2px; /* Rounded corners on the left side */
+    transition: width 0.3s ease; /* Smooth transition of battery level */
+  }
+  
+  .battery-percentage {
+    font-size: 1rem;
+    color: #000000;
+    z-index: 4;
+  }
+  
+  .battery-tooltip {
+    position: absolute;
+    top: 60px;
+    left: -40px;
+    transform: translateX(-50%);
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 5;
+    font-size: 1rem;
+    white-space: nowrap;
+    max-width: 320px; /* Increase max-width to accommodate more content */
+  }
+  
+  .battery-tooltip-cell {
+    margin-bottom: 10px;
+  }
+  
+  .battery-tooltip-cell:last-child {
+    margin-bottom: 0;
+  }
+  
+  .battery-tooltip-cell div {
+    margin-bottom: 5px; /* Space between each line of text */
+  }
+  
+  
+/* Responsive styles */
+
+
+@media (max-width: 768px) {
+  .battery-tooltip {
+    font-size: 1rem;
+    max-width: 350px; /* Further increased width */
+    padding: 25px; /* Further increased padding */
+  }
+}
+
+@media (max-width: 480px) {
+  .battery-tooltip {
+    font-size: 0.9rem; /* Largest font size */
+    max-width: 400px; /* Maximum width */
+    padding: 20px; /* Maximum padding */
+  }
+}

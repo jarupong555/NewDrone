@@ -9,7 +9,7 @@ import spidev
 gps_port = '/dev/ttyUSB1'
 at_port = '/dev/ttyUSB2'
 
-websocket_url = "ws://0.0.0.0:8080"
+websocket_url = "ws://10.8.8.56:8081"
 
 gps_ser = serial.Serial(gps_port, 115200, timeout=5)
 at_ser = serial.Serial(at_port, 115200, timeout=5)
@@ -21,7 +21,7 @@ spi.max_speed_hz = 1350000
 vout_values = [3.29, 3.26, 3.26, 3.24, 3.21, 3.20]
 
 max_voltage = 4.2
-min_voltage = 3.5
+min_voltage = 3.3
 
 last_gps_data = {"latitude": 0.0, "longitude": 0.0}
 

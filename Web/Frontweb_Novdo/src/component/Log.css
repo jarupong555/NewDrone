@@ -1,0 +1,59 @@
+/* Log.css */
+
+.log-container {
+    position: fixed;
+    font-size: 1rem;
+    right: 30px;
+    top: 40%;
+    transform: translateY(-50%);
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    max-height: 80vh;
+    overflow-y: auto;
+    background-color: #ffffff;
+    z-index: 5;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    transition: opacity 0.3s ease; /* Smooth transition for visibility */
+  }
+  
+  .log-container.hidden {
+    opacity: 0;
+    pointer-events: none; /* Prevent interactions when hidden */
+  }
+  
+  .log-container.visible {
+    opacity: 1;
+    pointer-events: auto; /* Enable interactions when visible */
+  }
+  
+  /* Media queries for responsive design */
+  @media (max-width: 1024px) {
+    .log-container {
+      max-width: 200px;
+      max-height: 70vh;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .log-container {
+      max-width: 200px;
+      max-height: 60vh;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .log-container {
+      max-width: 200px;
+      max-height: 60vh;
+      padding: 10px;
+    }
+  
+    .log-card {
+      padding: 10px;
+    }
+  }
+  

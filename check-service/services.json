@@ -1,0 +1,9 @@
+{
+  "services": [
+    "control-camera.service",
+    "frontweb.service",
+    "gps-battery.service",
+    "websocket.service",
+    "camera.service"
+  ]
+}

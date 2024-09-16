@@ -1,0 +1,22 @@
+/* Styling the Navbar to be horizontal on the top */
+.Navbar {
+    background-color: #797979; /* Dark background color */
+    color: #fff; /* Text color */
+    display: flex;
+    align-items: center; /* Center items vertically */
+    height: 60px; /* Adjust height as needed */
+    position: fixed; /* Fixes the navbar to the top of the viewport */
+    width: 100%; /* Full width of the viewport */
+    top: 0; /* Position at the top of the viewport */
+    padding: 0 20px; /* Horizontal padding for spacing */
+    box-sizing: border-box; /* Ensure padding is included in the height */
+    z-index: 1000; /* Ensure the navbar is on top of other content */
+}
+
+/* Brand styling */
+.Navbarcs {
+    color: #f8f9fa ; /* Ensure text color is applied */
+    font-size: 1rem; /* Adjust font size for better fit */
+    text-align: center; /* Center align the text */
+    margin-left: 160px;
+}

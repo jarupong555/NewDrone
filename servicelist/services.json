@@ -1,0 +1,842 @@
+[
+    {
+        "name": "alsa-restore.service",
+        "load": "loaded",
+        "active": "active",
+        "sub": "exited",
+        "description": "Save/Restore Sound Card State"
+    },
+    {
+        "name": "alsa-state.service",
+        "load": "loaded",
+        "active": "inactive",
+        "sub": "dead",
+        "description": "Manage Sound Card State (restore and store)"
+    },
+    {
+        "name": "apparmor.service",
+        "load": "loaded",
+        "active": "inactive",
+        "sub": "dead",
+        "description": "Load AppArmor profiles"
+    },
+    {
+        "name": "apt-daily-upgrade.service",
+        "load": "loaded",
+        "active": "inactive",
+        "sub": "dead",
+        "description": "Daily apt upgrade and clean activities"
+    },
+    {
+        "name": "apt-daily.service",
+        "load": "loaded",
+        "active": "inactive",
+        "sub": "dead",
+        "description": "Daily apt download activities"
+    },
+    {
+        "name": "●",
+        "load": "auditd.service",
+        "active": "not-found",
+        "sub": "inactive",
+        "description": "dead auditd.service"
+    },
+    {
+        "name": "auth-rpcgss-module.service",
+        "load": "loaded",
+        "active": "inactive",
+        "sub": "dead",
+        "description": "Kernel Module supporting RPCSEC_GSS"
+    },
+    {
+        "name": "avahi-daemon.service",
+        "load": "loaded",
+        "active": "active",
+        "sub": "running",
+        "description": "Avahi mDNS/DNS-SD Stack"
+    },
+    {
+        "name": "bluetooth.service",
+        "load": "loaded",
+        "active": "active",
+        "sub": "running",
+        "description": "Bluetooth service"
+    },
+    {
+        "name": "camera.service",
+        "load": "loaded",
+        "active": "active",
+        "sub": "running",
+        "description": "Camera Node.js App"
+    },
+    {
+        "name": "checkservice.service",
+        "load": "loaded",
+        "active": "active",
+        "sub": "running",
+        "description": "Check Service Script"
+    },
+    {
+        "name": "●",
+        "load": "connman.service",
+        "active": "not-found",
+        "sub": "inactive",
+        "description": "dead connman.service"
+    },
+    {
+        "name": "●",
+        "load": "console-screen.service",
+        "active": "not-found",
+        "sub": "inactive",
+        "description": "dead console-screen.service"
+    },
+    {
+        "name": "console-setup.service",
+        "load": "loaded",
+        "active": "active",
+        "sub": "exited",
+        "description": "Set console font and keymap"
+    },
+    {
+        "name": "control-camera.service",
+        "load": "loaded",
+        "active": "active",
+        "sub": "running",
+        "description": "Control Camera Service"
+    },
+    {
+        "name": "cron.service",
+        "load": "loaded",
+        "active": "active",
+        "sub": "running",
+        "description": "Regular background program processing daemon"
+    },
+    {
+        "name": "dbus.service",
+        "load": "loaded",
+        "active": "active",
+        "sub": "running",
+        "description": "D-Bus System Message Bus"
+    },
+    {
+        "name": "●",
+        "load": "display-manager.service",
+        "active": "not-found",
+        "sub": "inactive",
+        "description": "dead display-manager.service"
+    },
+    {
+        "name": "dphys-swapfile.service",
+        "load": "loaded",
+        "active": "active",
+        "sub": "exited",
+        "description": "dphys-swapfile - set up, mount/unmount, and delete a swap file"
+    },
+    {
+        "name": "dpkg-db-backup.service",
+        "load": "loaded",
+        "active": "inactive",
+        "sub": "dead",
+        "description": "Daily dpkg database backup service"
+    },
+    {
+        "name": "e2scrub_all.service",
+        "load": "loaded",
+        "active": "inactive",
+        "sub": "dead",
+        "description": "Online ext4 Metadata Check for All Filesystems"
+    },
+    {
+        "name": "e2scrub_reap.service",
+        "load": "loaded",
+        "active": "inactive",
+        "sub": "dead",
+        "description": "Remove Stale Online ext4 Metadata Check Snapshots"
+    },
+    {
+        "name": "emergency.service",
+        "load": "loaded",
+        "active": "inactive",
+        "sub": "dead",
+        "description": "Emergency Shell"
+    },
+    {
+        "name": "fake-hwclock.service",
+        "load": "loaded",
+        "active": "active",
+        "sub": "exited",
+        "description": "Restore / save the current clock"
+    },
+    {
+        "name": "frontweb.service",
+        "load": "loaded",
+        "active": "active",
+        "sub": "running",
+        "description": "Frontweb Service"
+    },
+    {
+        "name": "fstrim.service",
+        "load": "loaded",
+        "active": "inactive",
+        "sub": "dead",
+        "description": "Discard unused blocks on filesystems from /etc/fstab"
+    },
+    {
+        "name": "getty-static.service",
+        "load": "loaded",
+        "active": "inactive",
+        "sub": "dead",
+        "description": "getty on tty2-tty6 if dbus and logind are not available"
+    },
+    {
+        "name": "getty@tty1.service",
+        "load": "loaded",
+        "active": "active",
+        "sub": "running",
+        "description": "Getty on tty1"
+    },
+    {
+        "name": "gps-battery.service",
+        "load": "loaded",
+        "active": "active",
+        "sub": "running",
+        "description": "GPS Battery Python Script"
+    },
+    {
+        "name": "●",
+        "load": "gssproxy.service",
+        "active": "not-found",
+        "sub": "inactive",
+        "description": "dead gssproxy.service"
+    },
+    {
+        "name": "ifupdown-pre.service",
+        "load": "loaded",
+        "active": "active",
+        "sub": "exited",
+        "description": "Helper to synchronize boot up for ifupdown"
+    },
+    {
+        "name": "initrd-cleanup.service",
+        "load": "loaded",
+        "active": "inactive",
+        "sub": "dead",
+        "description": "Cleaning Up and Shutting Down Daemons"
+    },
+    {
+        "name": "initrd-parse-etc.service",
+        "load": "loaded",
+        "active": "inactive",
+        "sub": "dead",
+        "description": "Mountpoints Configured in the Real Root"
+    },
+    {
+        "name": "initrd-switch-root.service",
+        "load": "loaded",
+        "active": "inactive",
+        "sub": "dead",
+        "description": "Switch Root"
+    },
+    {
+        "name": "initrd-udevadm-cleanup-db.service",
+        "load": "loaded",
+        "active": "inactive",
+        "sub": "dead",
+        "description": "Cleanup udev Database"
+    },
+    {
+        "name": "●",
+        "load": "kbd.service",
+        "active": "not-found",
+        "sub": "inactive",
+        "description": "dead kbd.service"
+    },
+    {
+        "name": "keyboard-setup.service",
+        "load": "loaded",
+        "active": "active",
+        "sub": "exited",
+        "description": "Set the console keyboard layout"
+    },
+    {
+        "name": "kmod-static-nodes.service",
+        "load": "loaded",
+        "active": "active",
+        "sub": "exited",
+        "description": "Create List of Static Device Nodes"
+    },
+    {
+        "name": "logrotate.service",
+        "load": "loaded",
+        "active": "inactive",
+        "sub": "dead",
+        "description": "Rotate log files"
+    },
+    {
+        "name": "man-db.service",
+        "load": "loaded",
+        "active": "inactive",
+        "sub": "dead",
+        "description": "Daily man-db regeneration"
+    },
+    {
+        "name": "modprobe@configfs.service",
+        "load": "loaded",
+        "active": "inactive",
+        "sub": "dead",
+        "description": "Load Kernel Module configfs"
+    },
+    {
+        "name": "modprobe@dm_mod.service",
+        "load": "loaded",
+        "active": "inactive",
+        "sub": "dead",
+        "description": "Load Kernel Module dm_mod"
+    },
+    {
+        "name": "modprobe@drm.service",
+        "load": "loaded",
+        "active": "inactive",
+        "sub": "dead",
+        "description": "Load Kernel Module drm"
+    },
+    {
+        "name": "modprobe@efi_pstore.service",
+        "load": "loaded",
+        "active": "inactive",
+        "sub": "dead",
+        "description": "Load Kernel Module efi_pstore"
+    },
+    {
+        "name": "modprobe@fuse.service",
+        "load": "loaded",
+        "active": "inactive",
+        "sub": "dead",
+        "description": "Load Kernel Module fuse"
+    },
+    {
+        "name": "modprobe@loop.service",
+        "load": "loaded",
+        "active": "inactive",
+        "sub": "dead",
+        "description": "Load Kernel Module loop"
+    },
+    {
+        "name": "●",
+        "load": "mountkernfs.service",
+        "active": "not-found",
+        "sub": "inactive",
+        "description": "dead mountkernfs.service"
+    },
+    {
+        "name": "netfilter-persistent.service",
+        "load": "loaded",
+        "active": "active",
+        "sub": "exited",
+        "description": "netfilter persistent configuration"
+    },
+    {
+        "name": "networking.service",
+        "load": "loaded",
+        "active": "active",
+        "sub": "exited",
+        "description": "Raise network interfaces"
+    },
+    {
+        "name": "NetworkManager-wait-online.service",
+        "load": "loaded",
+        "active": "active",
+        "sub": "exited",
+        "description": "Network Manager Wait Online"
+    },
+    {
+        "name": "NetworkManager.service",
+        "load": "loaded",
+        "active": "active",
+        "sub": "running",
+        "description": "Network Manager"
+    },
+    {
+        "name": "●",
+        "load": "nfs-server.service",
+        "active": "not-found",
+        "sub": "inactive",
+        "description": "dead nfs-server.service"
+    },
+    {
+        "name": "nfs-utils.service",
+        "load": "loaded",
+        "active": "inactive",
+        "sub": "dead",
+        "description": "NFS server and client services"
+    },
+    {
+        "name": "openvpn.service",
+        "load": "loaded",
+        "active": "active",
+        "sub": "exited",
+        "description": "OpenVPN service"
+    },
+    {
+        "name": "pcscd.service",
+        "load": "loaded",
+        "active": "inactive",
+        "sub": "dead",
+        "description": "PC/SC Smart Card Daemon"
+    },
+    {
+        "name": "●",
+        "load": "plymouth-quit-wait.service",
+        "active": "not-found",
+        "sub": "inactive",
+        "description": "dead plymouth-quit-wait.service"
+    },
+    {
+        "name": "●",
+        "load": "plymouth-start.service",
+        "active": "not-found",
+        "sub": "inactive",
+        "description": "dead plymouth-start.service"
+    },
+    {
+        "name": "raspi-config.service",
+        "load": "loaded",
+        "active": "active",
+        "sub": "exited",
+        "description": "LSB: Switch to ondemand cpu governor (unless shift key is pressed)"
+    },
+    {
+        "name": "rc-local.service",
+        "load": "loaded",
+        "active": "active",
+        "sub": "exited",
+        "description": "/etc/rc.local Compatibility"
+    },
+    {
+        "name": "regenerate_ssh_host_keys.service",
+        "load": "loaded",
+        "active": "inactive",
+        "sub": "dead",
+        "description": "Regenerate SSH host keys"
+    },
+    {
+        "name": "rescue.service",
+        "load": "loaded",
+        "active": "inactive",
+        "sub": "dead",
+        "description": "Rescue Shell"
+    },
+    {
+        "name": "rpc-gssd.service",
+        "load": "loaded",
+        "active": "inactive",
+        "sub": "dead",
+        "description": "RPC security service for NFS client and server"
+    },
+    {
+        "name": "rpc-statd-notify.service",
+        "load": "loaded",
+        "active": "active",
+        "sub": "exited",
+        "description": "Notify NFS peers of a restart"
+    },
+    {
+        "name": "rpc-svcgssd.service",
+        "load": "loaded",
+        "active": "inactive",
+        "sub": "dead",
+        "description": "RPC security service for NFS server"
+    },
+    {
+        "name": "rpi-eeprom-update.service",
+        "load": "loaded",
+        "active": "active",
+        "sub": "exited",
+        "description": "Check for Raspberry Pi EEPROM updates"
+    },
+    {
+        "name": "serial-getty@ttyS0.service",
+        "load": "loaded",
+        "active": "active",
+        "sub": "running",
+        "description": "Serial Getty on ttyS0"
+    },
+    {
+        "name": "ssh.service",
+        "load": "loaded",
+        "active": "active",
+        "sub": "running",
+        "description": "OpenBSD Secure Shell server"
+    },
+    {
+        "name": "sshswitch.service",
+        "load": "loaded",
+        "active": "inactive",
+        "sub": "dead",
+        "description": "Turn on SSH if /boot/ssh or /boot/firmware/ssh is present"
+    },
+    {
+        "name": "●",
+        "load": "syslog.service",
+        "active": "not-found",
+        "sub": "inactive",
+        "description": "dead syslog.service"
+    },
+    {
+        "name": "systemd-ask-password-console.service",
+        "load": "loaded",
+        "active": "inactive",
+        "sub": "dead",
+        "description": "Dispatch Password Requests to Console"
+    },
+    {
+        "name": "systemd-ask-password-wall.service",
+        "load": "loaded",
+        "active": "inactive",
+        "sub": "dead",
+        "description": "Forward Password Requests to Wall"
+    },
+    {
+        "name": "systemd-binfmt.service",
+        "load": "loaded",
+        "active": "active",
+        "sub": "exited",
+        "description": "Set Up Additional Binary Formats"
+    },
+    {
+        "name": "systemd-firstboot.service",
+        "load": "loaded",
+        "active": "inactive",
+        "sub": "dead",
+        "description": "First Boot Wizard"
+    },
+    {
+        "name": "systemd-fsck-root.service",
+        "load": "loaded",
+        "active": "inactive",
+        "sub": "dead",
+        "description": "File System Check on Root Device"
+    },
+    {
+        "name": "systemd-fsck@dev-disk-by\\x2dpartuuid-85652a59\\x2d01.service",
+        "load": "loaded",
+        "active": "active",
+        "sub": "exited",
+        "description": "File System Check on /dev/disk/by-partuuid/85652a59-01"
+    },
+    {
+        "name": "systemd-fsckd.service",
+        "load": "loaded",
+        "active": "inactive",
+        "sub": "dead",
+        "description": "File System Check Daemon to report status"
+    },
+    {
+        "name": "●",
+        "load": "systemd-hwdb-update.service",
+        "active": "not-found",
+        "sub": "inactive",
+        "description": "dead systemd-hwdb-update.service"
+    },
+    {
+        "name": "systemd-initctl.service",
+        "load": "loaded",
+        "active": "inactive",
+        "sub": "dead",
+        "description": "initctl Compatibility Daemon"
+    },
+    {
+        "name": "systemd-journal-flush.service",
+        "load": "loaded",
+        "active": "active",
+        "sub": "exited",
+        "description": "Flush Journal to Persistent Storage"
+    },
+    {
+        "name": "systemd-journald.service",
+        "load": "loaded",
+        "active": "active",
+        "sub": "running",
+        "description": "Journal Service"
+    },
+    {
+        "name": "systemd-logind.service",
+        "load": "loaded",
+        "active": "active",
+        "sub": "running",
+        "description": "User Login Management"
+    },
+    {
+        "name": "systemd-machine-id-commit.service",
+        "load": "loaded",
+        "active": "inactive",
+        "sub": "dead",
+        "description": "Commit a transient machine-id on disk"
+    },
+    {
+        "name": "systemd-modules-load.service",
+        "load": "loaded",
+        "active": "active",
+        "sub": "exited",
+        "description": "Load Kernel Modules"
+    },
+    {
+        "name": "systemd-networkd.service",
+        "load": "loaded",
+        "active": "inactive",
+        "sub": "dead",
+        "description": "Network Configuration"
+    },
+    {
+        "name": "●",
+        "load": "systemd-oomd.service",
+        "active": "not-found",
+        "sub": "inactive",
+        "description": "dead systemd-oomd.service"
+    },
+    {
+        "name": "systemd-pcrphase-initrd.service",
+        "load": "loaded",
+        "active": "inactive",
+        "sub": "dead",
+        "description": "TPM2 PCR Barrier (initrd)"
+    },
+    {
+        "name": "systemd-pcrphase-sysinit.service",
+        "load": "loaded",
+        "active": "inactive",
+        "sub": "dead",
+        "description": "TPM2 PCR Barrier (Initialization)"
+    },
+    {
+        "name": "systemd-pcrphase.service",
+        "load": "loaded",
+        "active": "inactive",
+        "sub": "dead",
+        "description": "TPM2 PCR Barrier (User)"
+    },
+    {
+        "name": "systemd-pstore.service",
+        "load": "loaded",
+        "active": "inactive",
+        "sub": "dead",
+        "description": "Platform Persistent Storage Archival"
+    },
+    {
+        "name": "systemd-quotacheck.service",
+        "load": "loaded",
+        "active": "inactive",
+        "sub": "dead",
+        "description": "File System Quota Check"
+    },
+    {
+        "name": "systemd-random-seed.service",
+        "load": "loaded",
+        "active": "active",
+        "sub": "exited",
+        "description": "Load/Save Random Seed"
+    },
+    {
+        "name": "systemd-remount-fs.service",
+        "load": "loaded",
+        "active": "active",
+        "sub": "exited",
+        "description": "Remount Root and Kernel File Systems"
+    },
+    {
+        "name": "systemd-repart.service",
+        "load": "loaded",
+        "active": "inactive",
+        "sub": "dead",
+        "description": "Repartition Root Disk"
+    },
+    {
+        "name": "systemd-rfkill.service",
+        "load": "loaded",
+        "active": "inactive",
+        "sub": "dead",
+        "description": "Load/Save RF Kill Switch Status"
+    },
+    {
+        "name": "systemd-sysctl.service",
+        "load": "loaded",
+        "active": "active",
+        "sub": "exited",
+        "description": "Apply Kernel Variables"
+    },
+    {
+        "name": "systemd-sysext.service",
+        "load": "loaded",
+        "active": "inactive",
+        "sub": "dead",
+        "description": "Merge System Extension Images into /usr/ and /opt/"
+    },
+    {
+        "name": "systemd-sysusers.service",
+        "load": "loaded",
+        "active": "active",
+        "sub": "exited",
+        "description": "Create System Users"
+    },
+    {
+        "name": "systemd-timesyncd.service",
+        "load": "loaded",
+        "active": "active",
+        "sub": "running",
+        "description": "Network Time Synchronization"
+    },
+    {
+        "name": "systemd-tmpfiles-clean.service",
+        "load": "loaded",
+        "active": "inactive",
+        "sub": "dead",
+        "description": "Cleanup of Temporary Directories"
+    },
+    {
+        "name": "systemd-tmpfiles-setup-dev.service",
+        "load": "loaded",
+        "active": "active",
+        "sub": "exited",
+        "description": "Create Static Device Nodes in /dev"
+    },
+    {
+        "name": "systemd-tmpfiles-setup.service",
+        "load": "loaded",
+        "active": "active",
+        "sub": "exited",
+        "description": "Create Volatile Files and Directories"
+    },
+    {
+        "name": "systemd-udev-settle.service",
+        "load": "loaded",
+        "active": "inactive",
+        "sub": "dead",
+        "description": "Wait for udev To Complete Device Initialization"
+    },
+    {
+        "name": "systemd-udev-trigger.service",
+        "load": "loaded",
+        "active": "active",
+        "sub": "exited",
+        "description": "Coldplug All udev Devices"
+    },
+    {
+        "name": "systemd-udevd.service",
+        "load": "loaded",
+        "active": "active",
+        "sub": "running",
+        "description": "Rule-based Manager for Device Events and Files"
+    },
+    {
+        "name": "●",
+        "load": "systemd-update-done.service",
+        "active": "not-found",
+        "sub": "inactive",
+        "description": "dead systemd-update-done.service"
+    },
+    {
+        "name": "systemd-update-utmp-runlevel.service",
+        "load": "loaded",
+        "active": "inactive",
+        "sub": "dead",
+        "description": "Record Runlevel Change in UTMP"
+    },
+    {
+        "name": "systemd-update-utmp.service",
+        "load": "loaded",
+        "active": "active",
+        "sub": "exited",
+        "description": "Record System Boot/Shutdown in UTMP"
+    },
+    {
+        "name": "systemd-user-sessions.service",
+        "load": "loaded",
+        "active": "active",
+        "sub": "exited",
+        "description": "Permit User Sessions"
+    },
+    {
+        "name": "●",
+        "load": "systemd-vconsole-setup.service",
+        "active": "not-found",
+        "sub": "inactive",
+        "description": "dead systemd-vconsole-setup.service"
+    },
+    {
+        "name": "triggerhappy.service",
+        "load": "loaded",
+        "active": "active",
+        "sub": "running",
+        "description": "triggerhappy global hotkey daemon"
+    },
+    {
+        "name": "udisks2.service",
+        "load": "loaded",
+        "active": "inactive",
+        "sub": "dead",
+        "description": "Disk Manager"
+    },
+    {
+        "name": "user-runtime-dir@1000.service",
+        "load": "loaded",
+        "active": "active",
+        "sub": "exited",
+        "description": "User Runtime Directory /run/user/1000"
+    },
+    {
+        "name": "user@1000.service",
+        "load": "loaded",
+        "active": "active",
+        "sub": "running",
+        "description": "User Manager for UID 1000"
+    },
+    {
+        "name": "vpn.service",
+        "load": "loaded",
+        "active": "active",
+        "sub": "running",
+        "description": "OpenVPN connection for VPN"
+    },
+    {
+        "name": "websocket.service",
+        "load": "loaded",
+        "active": "active",
+        "sub": "running",
+        "description": "WebSocket Server"
+    },
+    {
+        "name": "wpa_supplicant.service",
+        "load": "loaded",
+        "active": "active",
+        "sub": "running",
+        "description": "WPA supplicant"
+    },
+    {
+        "name": "LOAD",
+        "load": "=",
+        "active": "Reflects",
+        "sub": "whether",
+        "description": "the unit definition was properly loaded."
+    },
+    {
+        "name": "ACTIVE",
+        "load": "=",
+        "active": "The",
+        "sub": "high-level",
+        "description": "unit activation state, i.e. generalization of SUB."
+    },
+    {
+        "name": "SUB",
+        "load": "=",
+        "active": "The",
+        "sub": "low-level",
+        "description": "unit activation state, values depend on unit type."
+    },
+    {
+        "name": "To",
+        "load": "show",
+        "active": "all",
+        "sub": "installed",
+        "description": "unit files use 'systemctl list-unit-files'."
+    }
+]

@@ -1,0 +1,16 @@
+.status-card {
+    position: fixed;
+    top: 15px;
+    right: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Space between the components */
+    background-color: #ffffff; /* White background for the card */
+    border: 1px solid #ccc; /* Border color for the card */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    padding: 20px; /* Padding inside the card */
+    padding-right: 170px;
+    z-index: 1; /* Ensure the card is above other elements */
+  }
+  
